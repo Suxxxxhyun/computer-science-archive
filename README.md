@@ -7,3 +7,4 @@
   - [PCB와 Context-Switch?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(3).md)
   - [프로세스의 메모리 영역 중 사용자 영역은 어떻게 되어있을까?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(4).md)
   - [부모 프로세스는 자식 프로세스를 어떻게 만들어내고, 자식프로세스는 어떻게 자신만의 코드를 실행할까?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(5).md)
+  - [멀티프로세스와 멀티스레드의 차이는 무엇일까?]()
