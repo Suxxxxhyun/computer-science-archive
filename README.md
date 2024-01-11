@@ -7,7 +7,7 @@
     - 다중 프로그래밍, 시분할 시스템, 대화형 시스템, 다중 처리기 시스템
   - [커널이란?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(2).md)
     - 커널 : 운영체제의 '핵심 서비스'를 담당하는 부분
-  - [시스템 콜, 인터럽트? 커널모드, 유저모드?]()
+  - [시스템 콜, 인터럽트? 커널모드, 유저모드?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(8).md)
   - [PCB와 Context-Switch?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(3).md)
     - PCB : 프로세스 관련 정보를 저장하는 자료구조로, **마치 옷에 달려있는 태그와 같다.**
   - [프로세스의 메모리 영역 중 사용자 영역은 어떻게 되어있을까?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(4).md)
