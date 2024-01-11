@@ -16,10 +16,10 @@
     - fork(), exec()
   - [멀티프로세스와 멀티스레드의 차이는 무엇일까?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(6).md)
     - 자원을 공유하느냐, 하지 않느냐
-  - [폴링이 뭐야? 인터럽트와 비교되는 개념이라는데?]()
+  - [폴링이 뭐야? 인터럽트와 비교되는 개념이라는데?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(9).md)
     - cpu를 양도하느냐, 양도하지 않느냐
-  - [DMA?]()
+  - [DMA?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(10).md)
     - DMA(Direct Memory Access) : cpu외에 메모리 접근이 가능한 장치
-  - [동기식 I/O와 비동기식 I/O의 공통점과 차이점은 무엇일까?]()
+  - [동기식 I/O와 비동기식 I/O의 공통점과 차이점은 무엇일까?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(11).md)
     - 동기식I/O와 비동기식 I/O의 공통점은 I/O연산이 완료되면 인터럽트를 통해 CPU에게 알리게 된다.
     - 차이점은 I/O작업이 끝나기를 Requesting process가 기다리냐, 기다리지 않느냐에 차이라고 할 수 있다.
