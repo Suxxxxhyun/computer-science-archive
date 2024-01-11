@@ -3,7 +3,7 @@
 ## operating-system 
 - 운영체제 개요 및 컴퓨터 시스템 동작원리
   - [운영체제란 무엇인가? 또한 어떤 역할을 수행하는가?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(1).md)
-  - [운영체제의 분류에 대해 알고있니?]()
+  - [운영체제의 분류에 대해 알고있니?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(7).md)
     - 다중 프로그래밍, 시분할 시스템, 다중 처리기 시스템 
   - [커널이란?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(2).md)
   - [PCB와 Context-Switch?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/os-learning(3).md)
