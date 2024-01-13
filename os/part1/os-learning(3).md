@@ -40,4 +40,4 @@
 
 - 이처럼, 기존의 실행중인 프로세스 문맥을 백업하고, 새로운 프로세스 실행을 위해 문맥을 복구하는 과정을 Context Switch(문맥교환)이라고 한다.
 
-<img src="../os/image/context-switch.png" >
+<img src="../image/context-switch.png" >

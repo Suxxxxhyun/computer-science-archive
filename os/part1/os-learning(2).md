@@ -3,10 +3,10 @@
 - 자동차의 엔진, 사람의 심장처럼, 운영체제의 '핵심 서비스'를 담당하는 부분
 - 컴퓨터가 부팅하는 순간, 커널 코드가 메모리에 올라가고, **다른 프로그램과 다르게 항상 메모리에 상주한다.**
 
-<img src="../os/image/kernel.png" >
+<img src="../image/kernel.png" >
 
 ## 컴퓨터 시스템 구조
-<img src="../os/image/computer-system.png" >
+<img src="../image/computer-system.png" >
 
 ## 커널의 3가지 특성
 - [자원을 보호하는 **보안성**](#1-보안성)

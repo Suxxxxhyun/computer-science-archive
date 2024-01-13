@@ -10,12 +10,12 @@
   - 스레드 ID, 프로그램 카운터를 비롯한 레지스터값, 스택 등
   - 스레드 마다 **실행에 필요한 최소한의 정보**를 가지고 있다.
 
-<img src="../os/image/thread.png" >
+<img src="../image/thread.png" >
 - 프로세스를 이루는 스레드들은 프로세스의 자원을 공유하며 실행된다.
   - 코드영역이 스레드마다 있는 것이 아니라, 위 그림과 같이, 하나의 코드영역을 여러개의 스레드가 공유하고 있는 것임!
 
 ## 멀티프로세스와 멀티스레드의 차이를 정확히 이해하자!
-<img src="../os/image/multiprocess-mulitThread.PNG" >
+<img src="../image/multiprocess-mulitThread.PNG" >
 
 - 멀티 프로세스 : 동일한 작업을 수행하는 **단일 스레드 프로세스**를 여러개 실행
 - 멀티 스레드 : 하나의 프로세스를 여러 스레드로 실행
@@ -27,8 +27,8 @@
   - = 저장된 메모리 주소를 제외하면, 모든 것이 동일한 프로세스 세개(=단일 스레드 프로세스3개)가 통째로 메모리에 적재됨.
 - 오른쪽그림(멀티스레드)는 프로세스의 자원을 공유하며 실행됨.
 
-<img src="../os/image/multiprocess.PNG" >
-<img src="../os/image/multithread.PNG" >
+<img src="../image/multiprocess.PNG" >
+<img src="../image/multithread.PNG" >
 
 ## but, 프로세스 간에도 자원을 공유할 수 있음(IPC)
 - 파일을 통한 프로세스 간 통신, 공유 메모리를 통한 프로세스 간 통신

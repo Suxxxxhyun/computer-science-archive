@@ -1,5 +1,5 @@
 ## 프로세스의 메모리 영역
-<img src="../os/image/user-area.png" >
+<img src="../image/user-area.png" >
 
 - 사용자영역과 커널영역
   - 사용자 영역
@@ -23,4 +23,4 @@
     
     - **힙영역과 스택영역은 동적할당영역에 속한다.**
 
-<img src="../os/image/heap-stack.png" >
+<img src="../image/heap-stack.png" >
