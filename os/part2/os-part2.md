@@ -1,12 +1,15 @@
 ## operating-system
 - 프로세스와 스레드
-  - [프로세스 관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(1).md)
-    - 프로세스 생성, 종료, wait()시스템콜
-  - [좀비프로세스와 고아프로세스? / 자식 프로세스가 상태를 알리지 않고 죽거나, 부모 프로세스가 먼저 죽게 되면 어떻게 처리해?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(2).md)
-    - 좀비프로세스 : 자식프로세스가 먼저 종료 + 부모프로세스가 wait() 시스템콜을 호출하지 않은 경우
-    - 고아프로세스 : 부모프로세스가 먼저 종료되버린 경우, 이때 자식프로세스의 상태 = 고아프로세스
-  - [프로그램, 프로세스, 프로세스 주소공간, 스레드?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(3).md)
+  - [프로그램, 프로세스, 프로세스 문맥, 프로세스 주소 공간, context switch?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(3).md)
     - 프로그램 : 코드를 컴파일 한뒤, 하드디스크에 저장한 것
     - 프로세스 : 프로그램을 RAM메모리에 적재하여 cpu를 할당받아 실행하는 것
     - 스레드 : 프로세스 내에서 실행되는 흐름의 단위
-  - [PCB(프로세스 제어 블록), TCB(스레드 제어 블록)]()
+  - [PCB(프로세스 제어 블록), multi process?]()
+  - [프로세스 수행 상태 변화과정, 중기 스케줄러(=Swapper)]()
+  - [프로세스 간 협력 방법]()
+  - [프로세스 관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(1).md)
+  - 프로세스 생성(fork()), 종료(exit()), wait()시스템콜
+  - [좀비프로세스와 고아프로세스? / 자식 프로세스가 상태를 알리지 않고 죽거나, 부모 프로세스가 먼저 죽게 되면 어떻게 처리해?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(2).md)
+    - 좀비프로세스 : 자식프로세스가 먼저 종료 + 부모프로세스가 wait() 시스템콜을 호출하지 않은 경우
+    - 고아프로세스 : 부모프로세스가 먼저 종료되버린 경우, 이때 자식프로세스의 상태 = 고아프로세스
+  - [스레드, tcb]()
