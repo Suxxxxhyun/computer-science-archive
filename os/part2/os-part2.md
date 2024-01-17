@@ -5,8 +5,8 @@
     - 프로세스 : 프로그램을 RAM메모리에 적재하여 cpu를 할당받아 실행하는 것
     - 스레드 : 프로세스 내에서 실행되는 흐름의 단위
   - [PCB(프로세스 제어 블록), multi process?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(4).md)
-  - [프로세스 수행 상태 변화과정, 중기 스케줄러(=Swapper)]()
-  - [프로세스 간 협력 방법]()
+  - [프로세스 수행 상태 변화과정, 중기 스케줄러(=Swapper)](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(5).md)
+  - [프로세스 간 협력 방법](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(6).md)
   - [프로세스 관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(1).md)
   - 프로세스 생성(fork()), 종료(exit()), wait()시스템콜
   - [좀비프로세스와 고아프로세스? / 자식 프로세스가 상태를 알리지 않고 죽거나, 부모 프로세스가 먼저 죽게 되면 어떻게 처리해?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(2).md)
