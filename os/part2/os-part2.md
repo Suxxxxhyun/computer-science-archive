@@ -4,7 +4,7 @@
     - 프로그램 : 코드를 컴파일 한뒤, 하드디스크에 저장한 것
     - 프로세스 : 프로그램을 RAM메모리에 적재하여 cpu를 할당받아 실행하는 것
     - 스레드 : 프로세스 내에서 실행되는 흐름의 단위
-  - [PCB(프로세스 제어 블록), multi process?]()
+  - [PCB(프로세스 제어 블록), multi process?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(4).md)
   - [프로세스 수행 상태 변화과정, 중기 스케줄러(=Swapper)]()
   - [프로세스 간 협력 방법]()
   - [프로세스 관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(1).md)
