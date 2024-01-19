@@ -13,4 +13,4 @@
     - 좀비프로세스 : 자식프로세스가 먼저 종료 + 부모프로세스가 wait() 시스템콜을 호출하지 않은 경우
     - 고아프로세스 : 부모프로세스가 먼저 종료되버린 경우, 이때 자식프로세스의 상태 = 고아프로세스
   - [스레드, tcb, 사용자 수준 스레드 및 커널 수준 스레드, 멀티 프로그래밍, 멀티스레드?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(7).md)
-  - [thread-safe의 의미와 설계방법]()
+  - [thread-safe의 의미와 설계방법](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(8).md)
