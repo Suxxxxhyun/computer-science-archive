@@ -39,6 +39,7 @@
 
 ### multi-level queue
 <img src="../image/multi-level.PNG">
+
 - ready queue를 여러개로 분할해 관리하는 스케줄링 기법을 말한다.
   - 우선순위 높음                                     우선순위 낮음
     - 시스템 프로세스 > 대화형 프로세스 > 편집 프로세스 > 일괄처리 프로세스 
