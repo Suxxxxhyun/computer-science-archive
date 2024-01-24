@@ -2,6 +2,14 @@
 - preemptive 스케줄링은 어떤 프로세스가 cpu를 할당받아 실행중인 상태에서, 다른 프로세스가 실행중인 프로세스를 중지하고 cpu를 강제로 점유하는 방식
 - non-preemptive 스케줄링은 어떤 프로세스가 cpu를 할당받으면 그 프로세스가 종료되거나 입출력 요구에 의해 프로세스가 자발적으로 중지될때까지 계속 실행하는 것
 
+- preemptive 스케줄링
+  - 장점 : 어느 한 프로세스의 자원 독점을 막고 프로세스들에게 골고루 자원을 배분할 수 있다.
+  - 단점 : 그만큼 context-switch과정에서 overhead가 발생할 수 있다.
+- non-preemptive 스케줄링
+  - 장점 : 선점형 스케줄링에 비해 context-switch에서 발생하는 오버헤드가 적다.
+  - 단점 : 모든 프로세스가 골고루 자원을 이용하기 어렵다.
+
+
 ## non-preemptive
 ### 선입선출 스케줄링(FCFS, First Come First Service)
 - Ready queue에 도착한 순서대로 차례로 cpu를 할당하는 기법
