@@ -27,6 +27,14 @@
   - 자식 프로세스가 종료될때까지 부모프로세스가 기다리며, 
   - 자식프로세스가 종료되면, 부모프로세스에게 종료상태를 알린다.
 
+## 추가로 알아야할 init과 systemd
+- 유닉스, 리눅스 기반 OS에서는 처음 실행하던 프로세스로 init을 사용해왔는데 이를 systemd가 대체했다.
+- init이 하던일을 systemd가 대신한다고 한다.
+
+- 참조블로그
+  - https://thebook.io/007021/0112/
+  - https://rudalson.tistory.com/entry/Linux%EC%9D%98-init-process-%EA%B7%B8%EB%A6%AC%EA%B3%A0-systemd
+
 - 참고블로그
   - https://myvelop.tistory.com/197
   - https://itstory1592.tistory.com/89
