@@ -39,3 +39,5 @@
 - 이 장기 스케줄러로 degree of multiprogamming을 제어하였다.
 
 - 현재는, degree of multiprogramming을 제어하기 위해 중기스케줄러를 두며, 중기 스케줄러를 swapper라고 한다.
+- 장기스케줄러를 두지 않는 이유는, 과거보다 메모리 양이 크기 때문에 스케줄링을 거치지 않고 빈 메모리에 곧바로 할당할 수 있기 때문이다.
+  - 참고 블로그 : https://wch18735.github.io/os/Process_Scheduling(1)/
