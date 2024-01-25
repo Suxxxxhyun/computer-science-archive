@@ -7,3 +7,5 @@
     - cpu스케줄링 : 어느 프로세스에 cpu를 할당할 것인가
     - 장기(현재 사용X), 중기, 단기
   - [preemptive / non-preemptive](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part3/os-learning(3).md)
+    - preemptive 스케줄링은 어떤 프로세스가 cpu를 할당받아 실행중인 상태에서, 다른 프로세스가 실행중인 프로세스를 중지하고 cpu를 강제로 점유하는 방식
+    - non-preemptive 스케줄링은 어떤 프로세스가 cpu를 할당받으면 그 프로세스가 종료되거나 입출력 요구에 의해 프로세스가 자발적으로 중지될때까지 계속 실행하는 것

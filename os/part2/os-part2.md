@@ -5,12 +5,22 @@
     - 프로세스 : 프로그램을 RAM메모리에 적재하여 cpu를 할당받아 실행하는 것
     - 스레드 : 프로세스 내에서 실행되는 흐름의 단위
   - [PCB(프로세스 제어 블록), multi process?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(4).md)
+    - pcb : 운영체제가 프로세스를 표현한 자료구조
+    - multi process : 단일 스레드 프로세스를 여러개 실행
+    - multi thread : 하나의 프로세스를 여러 스레드로 실행
   - [프로세스 수행 상태 변화과정, 중기 스케줄러(=Swapper)](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(5).md)
+    - 중기 스케줄러(=Swapper) : 메모리가 부족한 상황에서, 여유공간마련을 위해 프로세스를 통째로 메모리에서 디스크로 쫓아낸다.
   - [프로세스 간 협력 방법](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(6).md)
+    - shared memory : 커널의 관여없이 통신할 수 있기 때문에 속도가 빠르다. 하지만 별도의 동기화 과정이 필요하다는 단점이 있다.
+    - message passing : 커널을 통해서 데이터를 주고 받기 때문에 통신속도가 느리다. 하지만 커널에서 제어를 해주기 때문에 안전하고 동기화를 제공한다.
   - [프로세스 관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(1).md)
   - 프로세스 생성(fork()), 종료(exit()), wait()시스템콜
   - [좀비프로세스와 고아프로세스? / 자식 프로세스가 상태를 알리지 않고 죽거나, 부모 프로세스가 먼저 죽게 되면 어떻게 처리해?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(2).md)
     - 좀비프로세스 : 자식프로세스가 먼저 종료 + 부모프로세스가 wait() 시스템콜을 호출하지 않은 경우
     - 고아프로세스 : 부모프로세스가 먼저 종료되버린 경우, 이때 자식프로세스의 상태 = 고아프로세스
   - [스레드, tcb, 사용자 수준 스레드 및 커널 수준 스레드, 멀티 프로그래밍, 멀티스레드?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(7).md)
+    - tcb : 스레드를 관리하는 자료구조
+    - user thread : 커널이 스레드를 생성하는 것이 아니라, 응용 프로그램 내의 라이브러리에 의해서 스레드를 생성 및 관리
+    - kernel thread : 운영체제의 의해 직접 지원되고 관리되는 스레드
   - [thread-safe의 의미와 설계방법](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part2/os-learning(8).md)
+    - thread-safe : 여러 스레드로부터 동시에 접근이 이루어져도 프로그램의 실행에 문제가 없는 것을 말한다.
