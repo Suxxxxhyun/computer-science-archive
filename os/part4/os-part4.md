@@ -14,4 +14,4 @@
     - mutex : lock과 unlock의 주체가 같아야함. / priority inheritance를 가짐.
     - semaphore : lock과 unlock의 주체가 달라도 됨. / priority inheritance를 가지지 X
       - binary semaphore : **critical section에 동시 진입을 허용할 프로세스를 1개만 허용**
-  - [monitor?]()
+  - [monitor?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part4/os-learning(3).md)
