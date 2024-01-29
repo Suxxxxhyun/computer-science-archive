@@ -1,13 +1,13 @@
 ## operating-system
 - 프로세스 동기화
-  - [병행성(동시성)과 병렬성?]()
+  - [병행성(동시성)과 병렬성?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part4/os-learning(1).md)
     - 동시성 : cpu core가 한개일때, 시분할 시스템으로 프로세스를 짧은 시간 동안 번갈아 가면서 실행하는 것
     - 병렬성 : cpu core가 여러개일때, 각각의 core가 각각의 프로세스를 실행하는 것
-  - [프로세스 동기화? critical section?, race condition?]()
+  - [프로세스 동기화? critical section?, race condition?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part4/os-learning(2).md)
     - synchronization : 여러 프로세스 혹은 여러 스레드를 동시에 실행해도 공유 데이터의 일관성을 유지하는 것
     - critical section : 공유 데이터의 일관성을 유지하기 위해 하나의 프로세스 혹은 하나의 스레드만 진입해서 실행 가능한 영역
     - race condition : 여러 프로세스 혹은 여러 스레드가 동시에 같은 데이터를 조작할 경우 타이밍이나 접근 순서에 따라 결과가 달라질 수 있는 상황
-  - [spin lock? mutex? semaphore?]()
+  - [spin lock? mutex? semaphore?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part4/os-learning(2).md)
     - 모두 공유 자원에 대한 동시 접근을 제어하기 위해 쓰이는 Lock 
     - spin lock : lock을 취득할 때까지 계속 확인
     - mutex, semaphore : lock을 취득할 때까지 휴식을 취함.
