@@ -15,5 +15,5 @@
     - semaphore : lock과 unlock의 주체가 달라도 됨. / priority inheritance를 가지지 X
       - binary semaphore : **critical section에 동시 진입을 허용할 프로세스를 1개만 허용**
   - [monitor?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part4/os-learning(3).md)
-  - [deadlock?]()
+  - [deadlock?](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part4/os-learning(4).md)
     - deadlock : 두 개 이상의 프로세스 혹은 스레드가 서로가 가진 리소스를 기다리는 상태
