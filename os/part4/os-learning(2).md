@@ -100,7 +100,7 @@ busy waiting방식은 좋지 않다! 따라서, 아래와 같이 해결한다.
 
 <img src="../image/busy-waiting-solve(1).png">
 
-<img src="../image/busy-waiting-solve(2).png">
+<img src="../image/busy-waiting-solve(2).PNG">
 
 
 
