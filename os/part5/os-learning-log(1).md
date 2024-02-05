@@ -2,7 +2,7 @@
 
 <img src="../image/contiguous-memory.png">
 
-연속 메모리 할당 : 프로세스에 연속적으로 메모리공간을 할당하는 것을 의미
+**연속 메모리 할당** : **프로세스에 연속적으로 메모리공간을 할당하는 것**을 의미
 
 ### swapping (swap out, swap in, cf: 중기스케줄러)
 
