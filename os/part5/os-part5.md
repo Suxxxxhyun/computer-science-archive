@@ -1,12 +1,12 @@
 ## operating-system
 - 가상 메모리
-  - [연속메모리 할당의 개념과 방식 이에 따른 문제점]()
+  - [연속메모리 할당의 개념과 방식 이에 따른 문제점](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part5/os-learning-log(1).md)
     - 연속메모리 할당 : 프로세스에 연속적으로 메모리공간을 할당하는것
     - 방식 : first-fit, best-fit, worst-fit
     - **연속메모리 할당으로 인한 문제점**
       - **외부단편화** : **프로세스를 할당하기 어려울만큼 작은 메모리 공간으로 인해 메모리가 낭비되는 현상**
       - **물리메모리보다 더 큰 프로세스는 할당하기 어렵다.**
-  - [페이징을 통한 가상 메모리 관리]()
+  - [페이징을 통한 가상 메모리 관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part5/os-learning-log(2).md)
     - **가상 메모리 관리** : **실행하고자 하는 프로세스를 일부만 메모리에 적재**하여, 실제 물리메모리보다 더 큰 메모리를 실행시킬 수 있다.
     - 페이징, 세그멘테이션
       - 페이징
@@ -20,7 +20,7 @@
     - 페이지테이블에 담기는 정보들
       - 페이지, 프레임, **유효비트(현재 페이지가 메모리에 적재되었는가?)**, 보호비트(현재 페이지를 보호해야하는가?), 참조비트(cpu가 한번이라도 접근한 적이 있는가?), 수정비트(페이지에 데이터를 쓴 적이 있는가?)
       - **유효비트가 0이라면, 현재 페이지가 메모리에 적재되지 않았기때문에 pagefault인터럽트를 발생**시켜 해당 페이지를 메모리에 적재시킨다.
-  - [페이지교체와 프레임할당]()
+  - [페이지교체와 프레임할당](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part5/os-learning-log(3).md)
     - 요구페이징 : 요구된 페이지만 적재하는 방식
     - **페이지교체알고리즘 = 어떤 페이지를 내쫓아야하는가를 결정하는 문제**
       - FIFO, second-chance, 최적페이지교체, LRU
