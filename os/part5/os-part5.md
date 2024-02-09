@@ -30,4 +30,4 @@
         - 균등할당, 비례할당
       - 동적할당
         - 작업집합, page fault빈도
-  - [추가 내용 정리]()
+  - [추가 내용 정리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part5/os-learning-log(4).md)
