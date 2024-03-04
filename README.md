@@ -8,4 +8,4 @@
 - [가상메모리관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part5/os-part5.md)
 
 ## database
-- [데이터베이스 & 관계형 데이터베이스 기본 개념]()
+- [데이터베이스 & 관계형 데이터베이스 기본 개념](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/db/part1/dp-part1.md)
