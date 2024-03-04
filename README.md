@@ -6,3 +6,6 @@
 - [CPU 스케줄링](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part3/os-part3.md)
 - [프로세스 동기화](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part4/os-part4.md)
 - [가상메모리관리](https://github.com/Suxxxxhyun/computer-science-archive/blob/main/os/part5/os-part5.md)
+
+## database
+- [데이터베이스 & 관계형 데이터베이스 기본 개념]()
